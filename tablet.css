@@ -1,6 +1,6 @@
 #mobile { display: none; }
 
-body {  color : #7bd4f4; text-shadow: 2px 2px 2px black;
+body {  color : #c1dee2; text-shadow: 2px 2px 2px black;
     font-family: Arial, Helvetica, sans-serif; margin-top: 0; margin-left: 0;; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;  
     
     }
@@ -20,7 +20,7 @@ h1 {background-color: #c9bbae; background-image:url(montel%20header.jpg); backgr
 
 h4 { color : #74cfea;
      
-    text-shadow: 1px 1px 1px navy; }
+    text-shadow: 2px 2px 2px black; }
 
 
 .fortnite { color : #89b9c5;
