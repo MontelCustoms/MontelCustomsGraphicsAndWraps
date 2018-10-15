@@ -1,30 +1,30 @@
 #mobile { display: none; }
-a:link { color: #8d59be;}
-a:hover { color: #6f4d91;}
+a:link { color: #30ace2;}
+a:hover { color: #62c8cd;}
 
 body {  background-image: url(waves.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; 
-    color : #1254aa;
-    font-family: Arial, Helvetica, sans-serif; }
-main { padding-top: 1px; padding-right: 20px; padding-bottom: 20px; padding-left: 30px; display: block; background-color: #c0ddef; background-image: radial-gradient(#c0ddef, #b0aebb); 
+    color : #c1dee2; text-shadow: 2px 2px 2px black;
+    font-family: Arial, Helvetica, sans-serif; margin-top: 0; margin-left: 0;}
+main { padding-top: 1px; padding-right: 20px; padding-bottom: 20px; padding-left: 30px; display: block; background-color: #c0ddef; background-image: radial-gradient(#c0ddef, #011f4b); 
          }
 #wrapper { 
 	margin: auto;  width: 80%; min-width: 960px; max-width: 2048px; 
     box-shadow: 5px 5px 5px black;
-    border: 1px solid #000033; }
-h1 {background-color: #c9bbae; background-image:url(montel%20header.jpg); background-size: contain; 
+    border: 1px solid #000033; margin-top: 40px;}
+h1 { background-image:url(montel%20header.jpg); background-size: contain; 
     color : #FFFFFF; margin-bottom: 0;
-    height: 120px; text-align: center; padding-top: 30px;
+    height: 250px; text-align: center; padding-top: 30px;
     margin-top: 0; 
     font-family: abel; 
     font-size: 3em; letter-spacing: 0.25em; text-shadow: 2px 2px 2px black; background-size: 100% 100%; }
 
-h4 { color : #668ca5;
-    font-family: Georgia, "Times New Roman", sans-serif; font-size: 200%;
-    text-shadow: 1px 1px 1px navy; }
+h4 { color : #93d1ff;
+     font-size: 200%;
+    text-shadow: 2px 2px 2px black; }
 
 
-.fortnite { color : #888b9c;
-    font-weight: bold; text-shadow: 1px 1px 1px navy; font-size: 125%; font-family: 'Kavoon';font-size: 25px; letter-spacing: 2px;}
+.fortnite { color : #89b9c5;
+    font-weight: bold; text-shadow: 2px 2px 2px black; font-size: 125%; font-family: Arial; font-size: 25px; }
 main ul { list-style-image: url(marker.gif); }
 footer { font-size: 90%; 
     font-style: italic;
@@ -79,13 +79,14 @@ header, main, nav, footer, figure, figcaption, aside, section, article { display
     width: 100%;
   }
 }
-nav {   background-color: #c9bbae; background-image: radial-gradient(#c9bbae, #000033); 
+nav {   background-color: #8ecaf7; background-image: radial-gradient(#8ecaf7, navy); 
 	text-shadow: 2px 2px 2px black;
 	   letter-spacing: 0.1em;
 	   font-weight: bold;
-	   text-align: right; 
-	   padding-right: 2em;
-	   position: fixed; border-top-left-radius: 90px; border-top-right-radius: 90px; border-bottom-left-radius: 90px; border-bottom-right-radius: 90px; border: 1px solid  #00005D; z-index: 5;
+	   text-align: left; 
+	   padding-right: 2em; padding-top: 0px;
+	  position: fixed; border: 1px solid  #00005D; z-index: 5;
+	width: 100%; height: 50px; font-size: 20px; margin-left: 0;
 } 
 nav ul { list-style-type: none; 
         margin: 0;
@@ -100,7 +101,7 @@ nav a:link { color: #FFFFFF; }
 nav a:visited { color: #EAEAEA; }
 nav a:hover {  color: #D3DBEB; }
 nav ul ul { position: absolute;
-		background-color: #3181c0; background-image: radial-gradient(#3181c0, #75596f);
+		background-color: #8ecaf7; background-image: radial-gradient(#8ecaf7, navy);
     	 padding: 0;
          display: none; 
 		 text-align: left; 
@@ -146,12 +147,12 @@ figure {    position: absolute;
 			text-align: center; 
             opacity: .25;
 }
-table { border-collapse: collapse; border: 2px solid #36454f; }
-td, th { padding: 0.5em; border: 5px solid #36454f; font-family: 'Cormorant Upright';font-size: 22px; font-weight: bold;}
+table { border-collapse: collapse; border: 2px solid navy; }
+td, th { padding: 0.5em; border: 2px solid navy; font-family: Arial; font-size: 22px; color: #c1dee2; }
 td { text-align: center; }
 .text { text-align: left; }
-tr:nth-of-type(odd) { background-color:  #ccdaf7; background-image: radial-gradient( #ccdaf7, #c9bbd4)}
-tr:nth-of-type(even) {  background-color: #ccdaf7; background-color: #3181c0; background-image: radial-gradient(#ccdaf7, #a5a3cb) }
+tr:nth-of-type(odd) { background-color:  #5ea9e2; background-image: radial-gradient( #5ea9e2, blue)}
+tr:nth-of-type(even) {  background-color: #5ea9e2; background-color: #5ea9e2; background-image: radial-gradient(#5ea9e2, navy) }
 
 
 label { float: left; display: block; text-align: right; width: 120px; }
@@ -166,7 +167,7 @@ input[type="submit"] { margin-left: 130px; }
 h4 {
     font-family: 'Bungee Inline';font-size: 25px;
 }
-p {font-family: 'Cormorant Upright';font-size: 22px; font-weight: bold;}
+
 a:link { text-decoration: none;}
 
 #minigallery { display: none;}
