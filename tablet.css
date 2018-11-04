@@ -13,7 +13,7 @@ main { padding-top: 1px; padding-right: 20px; padding-bottom: 20px; padding-left
     border: 1px solid #000033; }
 h1 { background-image:url(montel%20header.jpg); background-size: contain; 
     color : #FFFFFF; margin-bottom: 0;
-    height: 120px; text-align: center; padding-top: 30px;
+    height: 100px; text-align: center; padding-top: 30px;
     margin-top: 0; 
     font-family: abel; 
     font-size: 3em; letter-spacing: 0.25em; text-shadow: 2px 2px 2px black; background-size: 100% 100%; }
